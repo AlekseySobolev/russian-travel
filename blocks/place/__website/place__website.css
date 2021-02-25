@@ -1,0 +1,13 @@
+.place__website{     
+    margin-top: 12px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+@media screen and (max-width: 767px){
+    .place__website{
+        width: calc(100% - 16px*2);
+    }
+}

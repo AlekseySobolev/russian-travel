@@ -1,6 +1,6 @@
 .foto-grid__item{
     box-sizing: border-box;
-    width: 1fr;
+    width: 100%;
     max-height: 213px;
 
 }

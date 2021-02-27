@@ -5,7 +5,6 @@
     margin: 0 auto;
     width: calc(100% - 494px);
     margin-left: 100px;
-    min-height: 429px;
     margin-top: 92px;
 }
 
@@ -29,7 +28,6 @@
     .intro{
         margin: 0 auto;
         width: calc(100% - 16px*2);
-        min-height: 754px;
         margin-top: 64px;
     }
 }

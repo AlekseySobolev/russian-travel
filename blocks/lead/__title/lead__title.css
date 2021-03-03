@@ -1,7 +1,7 @@
 .lead__title{
     margin: 0 auto;
-    width: calc(100% - 132px * 2);
-  /*  min-height: 200px;*/
+    max-width: 720px;
+    width: 100%;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -9,27 +9,12 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1279px){
-    .lead__title{
-     
-        width: calc(100% - 104px * 2);
-       
-    }
-}
 
-@media screen and (max-width: 1023px){
-    .lead__title{
-     
-        width: calc(100% - 24px * 2);
-       
-    }
-}
    
 @media screen and (max-width: 767px){
     .lead__title{
-        
-         width: calc(100% - 16px * 2);
-        /* min-height: 88px;*/
+
+         max-width: 288px;
          font-size: 40px;
          line-height: 44px;
     }

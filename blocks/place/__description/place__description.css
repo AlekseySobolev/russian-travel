@@ -1,6 +1,26 @@
 .place__description{
     width: 100%;
+    max-width: 486px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+@media screen and (max-width: 1279px){
+    .place__description{
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .place__description{
+        max-width: 352px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px){
+    .place__description{
+        margin: 0 auto;
+        max-width: 288px;
+    }
 }
